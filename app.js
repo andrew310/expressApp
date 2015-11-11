@@ -20,7 +20,7 @@ app.set('port', 3000);
 
 //home page
 app.get('/',function(req,res){
-        res.render('home', {layout: false});
+    res.render('home');
 });
 
 //get handler
